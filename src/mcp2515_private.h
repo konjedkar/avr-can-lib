@@ -77,6 +77,11 @@
 		#define	P_MISO	B,3
 		#define	P_SCK	B,1
 		#define	SUPPORT_FOR_MCP2515__
+	#elif defined(__AVR_ATmega2560__)
+		#define	P_MOSI	B,2
+		#define	P_MISO	B,3
+		#define	P_SCK	B,1
+		#define	SUPPORT_FOR_MCP2515__		
 	#elif defined(__AVR_ATtiny45__) || defined(__AVR_ATtiny85__)
 		#define	P_MOSI	B,0
 		#define	P_MISO	B,1
